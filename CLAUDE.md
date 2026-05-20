@@ -2,6 +2,11 @@
 ## Project Stack
 
 Next.js 16 + Supabase + Tailwind CSS 4 + TypeScript.
+
+## Routing & Middleware
+
+Next.js 16 drops `middleware.ts`. Use `proxy.ts` instead for request interception/auth/redirects. Never create `middleware.ts`.
+
 ## Coding Guidelines
 
 Behavioral guidelines to reduce common LLM coding mistakes. Merge with project-specific instructions as needed.
